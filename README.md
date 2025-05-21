@@ -31,16 +31,16 @@ IP debe pertenecer al mismo rango red de la máquina física.
 2) [X] El archivo de configuración debe incluir los campos ADDRESS, NETMASK y
 GATEWAY.
 ### 4) Almacenamiento
-1) [ ] Agregar un nuevo disco de 10 GB adicional a la máquina virtual.
-2) [ ] Crear dos particiones estándar (tipo 83), con las siguientes capacidades:
- /www_dir: 3 GB
- /backup_dir: 6 GB
-3) [ ] Configurar el directorio /www_dir para alojar el archivo index.php y logo.png.
+1) [X] Agregar un nuevo disco de 10 GB adicional a la máquina virtual.
+2) [X] Crear dos particiones estándar (tipo 83), con las siguientes capacidades:
+* /www_dir: 3 GB
+* /backup_dir: 6 GB
+3) [X] Configurar el directorio /www_dir para alojar el archivo index.php y logo.png.
 Actualizar el archivo de configuración de Apache para que éste apunte a la nueva
 ubicación (ver archivos 000-default.conf y apache2).
-4) [ ] Configurar el directorio /www_dir para que se monte automáticamente al iniciar
+4) [X] Configurar el directorio /www_dir para que se monte automáticamente al iniciar
 el sistema operativo.
-5) [ ] Configurar el directorio /backup_dir para que se monte automáticamente al iniciar
+5) [X] Configurar el directorio /backup_dir para que se monte automáticamente al iniciar
 el sistema operativo.
 Nota: se debe crear un archivo en /proc llamado “particion”, y redirigir el contenido del
 archivo “partitions” ubicado en /proc (el archivo original es efímero y se pierde al apagar
