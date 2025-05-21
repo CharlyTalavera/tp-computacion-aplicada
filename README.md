@@ -16,19 +16,19 @@
 3) [X] Establecer el nombre de hostname como TPServer.
     
 ### 2) Servicios
-1) [ ] SSH: instalar y configurar el servicio de SSH. El servidor debe permitir el acceso al usuario root mediante una clave privada/pública, proporcionada junto con la
+1) [X] SSH: instalar y configurar el servicio de SSH. El servidor debe permitir el acceso al usuario root mediante una clave privada/pública, proporcionada junto con la
 máquina virtual en Blackboard.
-2) [ ] WEB: instalar y configurar el servidor Apache con soporte para PHP (versión 7.3 o superior). Configurar el servidor para servir el archivo “index.php” y “logo.png”,
+2) [X] WEB: instalar y configurar el servidor Apache con soporte para PHP (versión 7.3 o superior). Configurar el servidor para servir el archivo “index.php” y “logo.png”,
 disponible junto con la máquina virtual en Blackboard.
-3) [ ] Base de datos: instalar y configurar MariaDB. Cargar, en el motor de base de
+3) [X] Base de datos: instalar y configurar MariaDB. Cargar, en el motor de base de
 datos, el script SQL, denominado “db.sql”, disponible junto con la máquina virtual
 en Blackboard.
 Nota: las pruebas de conectividad y acceso al sitio web deben realizarse desde una
 máquina física u otra máquina en la misma red.
 ### 3) Configuración de Red
-1) [ ] Configurar la interfaz de red con una IP estática en el archivo de configuración. La
+1) [X] Configurar la interfaz de red con una IP estática en el archivo de configuración. La
 IP debe pertenecer al mismo rango red de la máquina física.
-2) [ ] El archivo de configuración debe incluir los campos ADDRESS, NETMASK y
+2) [X] El archivo de configuración debe incluir los campos ADDRESS, NETMASK y
 GATEWAY.
 ### 4) Almacenamiento
 1) [ ] Agregar un nuevo disco de 10 GB adicional a la máquina virtual.
