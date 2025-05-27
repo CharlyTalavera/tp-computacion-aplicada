@@ -52,7 +52,7 @@ la máquina).
 2) [X] El script debe backupear los directorios indicados con nombres que incluyan la
 fecha en formato ANSI (YYYMMDD). Por ejemplo, para /var/log, el archivo
 generado debería llamarse “log_bkp_20240302.tar.gz”.
-3) [ ] Los backups generados deben almacenarse en la partición que tiene montado el
+3) [X] Los backups generados deben almacenarse en la partición que tiene montado el
 directorio /backup_dir.
 4) [X] El script debe aceptar argumentos como origen (lo que se va a backupear) y
 destino (dónde se va a backupear).
@@ -60,7 +60,7 @@ destino (dónde se va a backupear).
 del script.
 6) [X] El script debe validar que los sistemas de archivos de origen y destino estén
 disponibles antes de ejecutar el backup.
-7) [ ] El script debe ser incluido en un calendario de tareas para correr
+7) [X] El script debe ser incluido en un calendario de tareas para correr
 automáticamente:
 • TODOS LOS DÍAS a las 00:00 hs: Backupear “/var/logs”
 • LUNES, MIÉRCOLES, VIERNES a las 23:00 hs: Backupear “/www_dir”
