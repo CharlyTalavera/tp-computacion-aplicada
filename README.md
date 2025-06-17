@@ -2,11 +2,12 @@
 
 ## Integrantes
 * Thomas Dery
-* Anthony de Jesus Herrera Timaure
 * Joaquin Moises
 * Pablo Ariel Mayobre
 * Carlos Damián talavera
 
+## Diagrama Topológico
+![Diagrama Topologico](diagrama_topologico.png)
 ## Consignas
 
 ### 1) Configuración del entorno
@@ -71,4 +72,4 @@ nombres de los participantes del grupo.
 • “/root”, “/etc”, “/opt”, “/proc”, “/www_dir” y “/backup_dir”. Todos ellos
 comprimidos individualmente en formato “.tar.gz”.
 • “/var” se lo debe splitear en partes pequeñas para que pueda ser subido.
-3) [ ] Realizar un diagrama topológico de la infraestructura armada.
+3) [X] Realizar un diagrama topológico de la infraestructura armada.
